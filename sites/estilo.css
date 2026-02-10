@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(152, 91, 79);
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+}
+.topo{
+    display: flex;
+    align-items: center;      /* alinha verticalmente */
+    justify-content: center;  /* centraliza no meio da página */
+    gap: 20px;                /* espaço entre texto e imagem */
+}
+
+.gato{
+    width: 120px;
+
+}
+.mensagem{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 30px auto;
+    width: 70%;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+.botao-adotar{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #ffb703;
+    color: #5a2d0c;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.botao-adotar:hover{
+    background-color: #ffd166;
+    transform: scale(1.05);
+}
