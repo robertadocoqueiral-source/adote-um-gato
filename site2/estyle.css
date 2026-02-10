@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: azure;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Container geral */
+.lista-gatos {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Cada gato */
+.gato {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid azure;
+    padding: 10px;
+}
+
+/* Imagem */
+.gato img {
+    width: 120px;
+}
+
+/* Texto */
+.gato p {
+    font-size: 18px;
+    text-align: left;
+}
